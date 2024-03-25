@@ -5,6 +5,7 @@
         android:id="@+id/action_main"
         android:orderInCategory="1"
         android:title="В главную" />
+
     <item
         android:id="@+id/action_calculator"
         android:orderInCategory="2"
