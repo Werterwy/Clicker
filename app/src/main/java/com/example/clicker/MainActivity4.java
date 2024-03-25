@@ -35,12 +35,11 @@ public class MainActivity4 extends AppCompatActivity /*implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-       /* mainTextView = findViewById(R.id.main_text);
+        mainTextView = findViewById(R.id.main_text);
         iterator = findViewById(R.id.main_iterator);
         mainTextView.setText("Set in Java");
         iterator.setText("");
         mainButton = findViewById(R.id.main_button);
-        mainButton.setOnClickListener(this);
 
         mainEditText = findViewById(R.id.main_edittext);
 
@@ -75,9 +74,9 @@ public class MainActivity4 extends AppCompatActivity /*implements View.OnClickLi
 
 
         ok_btn.setOnClickListener(oclBtn);
-        cnc_btn.setOnClickListener(oclBtn);*/
+        cnc_btn.setOnClickListener(oclBtn);
     }
-   /* int len = 0;
+    int len = 0;
     private boolean isDuplicate(int value) {
         // Проверяем, есть ли значение в списке
         if (ListNames.contains(value)) {
@@ -140,5 +139,5 @@ public class MainActivity4 extends AppCompatActivity /*implements View.OnClickLi
 
     private void showCncToast() {
         Toast.makeText(MainActivity4.this, "Нажата кнопка Отмена", Toast.LENGTH_SHORT).show();
-    }*/
+    }
 }
