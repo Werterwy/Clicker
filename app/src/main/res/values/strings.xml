@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clicker</string>
+    <string name="click_me">Нажми меня</string>
+    <string name="button_clicks">Кнопка нажата %d раз</string>
+    <string name="greetings">Hello from XML</string>
+    <string name="button">Update The TextView</string>
+    <string name="hint">A name</string>
+    <string name="hint2">A number</string>
+    <string name="iter">Iter</string>
+</resources>

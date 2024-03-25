@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_clicks">
+        <item quantity="one">Кнопка нажата %d раз</item>
+        <item quantity="few">Кнопка нажата %d раза</item>
+        <item quantity="many">Кнопка нажата %d раз</item>
+    </plurals>
+</resources>
