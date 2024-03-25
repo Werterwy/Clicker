@@ -18,7 +18,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class MainActivity4 extends AppCompatActivity /*implements View.OnClickListener*/ {
+public class MainActivity4 extends AppCompatActivity
+implements View.OnClickListener
+ {
     TextView mainTextView;
     TextView iterator;
     Button mainButton;
@@ -87,6 +89,7 @@ public class MainActivity4 extends AppCompatActivity /*implements View.OnClickLi
     }
 
     public void onClick(View v) {
+
         int enteredNumber = Integer.parseInt(mainEditText.getText().toString());
         if (isDuplicate(enteredNumber)) {
             // Введено дублирующееся значение
