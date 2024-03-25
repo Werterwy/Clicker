@@ -43,6 +43,7 @@ public class MainActivity2 extends AppCompatActivity {
         Btn9 = findViewById(R.id.button9);
         Btn0 = findViewById(R.id.button0);
         Plus = findViewById(R.id.Plus);
+
         Minus = findViewById(R.id.Minus);
         Division = findViewById(R.id.Division);
         Mult = findViewById(R.id.multiply);
